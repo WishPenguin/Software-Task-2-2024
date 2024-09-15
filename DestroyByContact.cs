@@ -20,10 +20,6 @@ public class DestroyByContact : MonoBehaviour
         {
                 return;
         }
-            
-            
-          
-
 
         Instantiate(explosion, other.transform.position, transform.rotation);
             if (other.tag == "Player")
